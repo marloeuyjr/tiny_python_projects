@@ -33,7 +33,7 @@ def get_args() -> Args:
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     defaults = get_defaults()
-    username = os.getenv('USER') or 'Anonymous'
+    username = 'marloe.uy'
     hostname = os.getenv('HOSTNAME') or 'localhost'
 
     parser.add_argument('program', help='Program name', type=str)
