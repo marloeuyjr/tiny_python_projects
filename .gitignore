@@ -10,4 +10,5 @@ tex2pdf*
 .log
 .coverage
 .idea
+poetry.lock
 .vscode
